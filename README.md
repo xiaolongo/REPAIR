@@ -59,7 +59,7 @@ python -m src.encode --graph raw.npz --texts texts.json --model models/nomic --o
 python -m src.preprocess --raw raw.npz --features features.npz --texts texts.json --classes classes.json --output data/new_graph
 ```
 
-Use a local Nomic-Embed-Text-v1.5 model with revision `e9b6763023c676ca8431644204f50c2b100d9aab`. Encoding uses the `classification: ` prefix, an 8192-token limit, attention-mask mean pooling, LayerNorm over 768 coordinates, the first 384 coordinates, and L2 normalization. Inputs longer than 2048 tokens are encoded individually. Truncation counts are recorded for original texts exceeding 8192 tokens.
+Use a local Nomic-Embed-Text-v1.5 model. Encoding uses the `classification: ` prefix, an 8192-token limit, attention-mask mean pooling, LayerNorm over 768 coordinates, the first 384 coordinates, and L2 normalization. Inputs longer than 2048 tokens are encoded individually. Truncation counts are recorded for original texts exceeding 8192 tokens.
 
 Preprocessing removes classes with fewer than 160 nodes, retains the induced graph, and canonicalizes edges. Each ID class supplies 100 training nodes and 50 validation nodes. A mixed pool of 2000 candidates is sampled and divided into disjoint folds A/B. Remaining nodes form Q. Generic preprocessing uses class seed 11, node seeds 100/101/102, fold seed 23, and half the retained classes as ID. Reproducing the paper requires the original fixed splits, including six ID classes for WikiCS. Add a backbone entry to `configs/datasets.json` for a new dataset.
 
