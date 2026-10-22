@@ -1,0 +1,12 @@
+Task: Generate one {regime}-OOD sample.
+Generation identifier: {node_id}
+All known ID labels:
+{categories}
+Labels of the connected real ID nodes:
+{neighbors}
+For near-OOD, choose a topic close to the main ID domain but outside every listed ID category. For far-OOD, choose a topic farther from the main ID domain, while keeping a meaningful relation to the connected labels.
+1. Identify the main domain.
+2. Select an outside category under the requested regime.
+3. Summarize the connection to the related node labels briefly.
+4. Generate a title and an encyclopedia description.
+Output exactly main_domain, ood_label, relation, title, description as a JSON object.

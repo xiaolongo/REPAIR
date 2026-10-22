@@ -1,0 +1,49 @@
+{
+  "repository": "https://github.com/DannyW618/GOLD",
+  "files": {
+    "README.md": {
+      "url": "https://raw.githubusercontent.com/DannyW618/GOLD/main/README.md",
+      "sha256": "b1512724f8c7cf1c5a61639e2422901afc6ca09d111752ed714b6e756acd1649"
+    },
+    "gold/gold.py": {
+      "url": "https://raw.githubusercontent.com/DannyW618/GOLD/main/gold/gold.py",
+      "sha256": "1e1d8add01d02c4993e399656de725b7f1450bd9b17fed7c1b787676ac031c86"
+    },
+    "gold/run_gold.sh": {
+      "url": "https://raw.githubusercontent.com/DannyW618/GOLD/main/gold/run_gold.sh",
+      "sha256": "ab35f74e9de5f149d7ae27ff56e00fd3cf2308d7e67723302c53986f8c779ae2"
+    },
+    "gold/parse.py": {
+      "url": "https://raw.githubusercontent.com/DannyW618/GOLD/main/gold/parse.py",
+      "sha256": "ea35006f1fb08a359f4b6644ad6d305834b1b01d0401666c0175e6e1ec942d8c"
+    },
+    "gold/gold_utils.py": {
+      "url": "https://raw.githubusercontent.com/DannyW618/GOLD/main/gold/gold_utils.py",
+      "sha256": "c46dcfcde89420e48df034fdbd87df2a799ad8d54d7a4de7a189067fe290516a"
+    },
+    "gold/diffusion_util.py": {
+      "url": "https://raw.githubusercontent.com/DannyW618/GOLD/main/gold/diffusion_util.py",
+      "sha256": "c468043e4e836490976239606cfb43138ad216b76f966ca1f45662d52be7e086"
+    },
+    "gold/backbone.py": {
+      "url": "https://raw.githubusercontent.com/DannyW618/GOLD/main/gold/backbone.py",
+      "sha256": "4d28576ffffd29498ba9bd1c27f7e782183c9ff9c59652d16036628135ce7393"
+    },
+    "gold/data_utils.py": {
+      "url": "https://raw.githubusercontent.com/DannyW618/GOLD/main/gold/data_utils.py",
+      "sha256": "4f1f07584507942b1b26b3723d4410eb92de3cc9d99a0e44dc0ddad3e4d0e2d7"
+    },
+    "gold/gnnsafe.py": {
+      "url": "https://raw.githubusercontent.com/DannyW618/GOLD/main/gold/gnnsafe.py",
+      "sha256": "b278938330ae1c6316825423c82cbeddc53af0bb6a6850acbebaa18e2d341feb"
+    },
+    "gold/dataset.py": {
+      "url": "https://raw.githubusercontent.com/DannyW618/GOLD/main/gold/dataset.py",
+      "sha256": "da48a492d848eda23924cb5e15177e204d42ae35d83c61036a611acf3fc4ae1e"
+    },
+    "gold/logger.py": {
+      "url": "https://raw.githubusercontent.com/DannyW618/GOLD/main/gold/logger.py",
+      "sha256": "02ea93f036618946442f78738008c81a7822bd2923be28c3914082edff4b943e"
+    }
+  }
+}

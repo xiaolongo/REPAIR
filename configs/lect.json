@@ -1,0 +1,55 @@
+{
+  "version": "lect_full_shared_v1",
+  "model_seeds": [
+    0,
+    1,
+    2
+  ],
+  "generated_per_seed": 1000,
+  "near_fraction": 0.5,
+  "max_neighbors": 6,
+  "project_dim": 128,
+  "hidden_dim": 64,
+  "dropout": 0.5,
+  "gamma": 1.0,
+  "lambda_pair": 1.0,
+  "lambda_triplet": 1.0,
+  "pair_samples": 1000,
+  "triplet_samples": 1000,
+  "lr": 0.001,
+  "weight_decay": 0.0005,
+  "paper_epoch": 300,
+  "min_epoch": 1000,
+  "max_epoch": 5000,
+  "patience": 300,
+  "min_delta": 0.0001,
+  "evaluation_graph": "original_without_generated_nodes",
+  "propagation_steps": [
+    0,
+    1,
+    3,
+    5
+  ],
+  "propagation_alpha": 0.5,
+  "selection_from_epoch": 1,
+  "metrics": "GNNSafe official ID-positive",
+  "encoder": {
+    "attention": "sdpa",
+    "batching": "ascending capped token length; at most 16 short sequences and 8192 padded tokens; lengths above 2048 use batch size 1",
+    "dimension": 384,
+    "dtype": "float32",
+    "input_prefix": "classification: ",
+    "long_batch_reason": "dynamic RoPE uses batch maximum length; single long sequences prevent unrelated documents changing the scale",
+    "max_seq_length": 8192,
+    "model": "nomic-ai/nomic-embed-text-v1.5",
+    "pooling": "attention-mask mean",
+    "postprocess": "LayerNorm over 768 dimensions, first 384 coordinates, L2 normalization",
+    "revision": "e9b6763023c676ca8431644204f50c2b100d9aab",
+    "rope_parameters": {
+      "factor": 2.0,
+      "rope_theta": 1000.0,
+      "rope_type": "dynamic"
+    },
+    "trust_remote_code": false
+  }
+}

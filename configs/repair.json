@@ -1,0 +1,30 @@
+{
+  "reviews": 8,
+  "gate_quantiles": [
+    0.25,
+    0.5,
+    0.8,
+    0.99
+  ],
+  "K": 3,
+  "alpha": 0.5,
+  "GNN_update": {
+    "V_role": "monitor ID performance only",
+    "dropout": 0.5,
+    "head_fixed_during_GNN_update": true,
+    "lr": 0.001,
+    "max_epochs": 2000,
+    "normalization_fixed_within_stage": true,
+    "optimizer": "Adam",
+    "patience": 20,
+    "selection": "minimum eval joint training objective including GNN L2, starting at epoch0",
+    "weight_decay": 0.0005
+  },
+  "head_fit": {
+    "gtol": 1e-09,
+    "ftol": 1e-15,
+    "maxiter": 2000,
+    "max_objective_gap": 1e-09,
+    "weight_decay": 0.0005
+  }
+}

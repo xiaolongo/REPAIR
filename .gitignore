@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+data/
+runs/
+models/
+generated/
+*.log
+.env
+*.key

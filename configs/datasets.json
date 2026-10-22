@@ -1,0 +1,65 @@
+{
+  "wikics": {
+    "hidden": 128,
+    "BN": false,
+    "lr": 0.01,
+    "weight_decay": 0.0005,
+    "max_epochs": 2000,
+    "patience": 20,
+    "dropout": 0.5
+  },
+  "cora_full": {
+    "hidden": 128,
+    "BN": true,
+    "lr": 0.01,
+    "weight_decay": 0.0005,
+    "max_epochs": 2000,
+    "patience": 20,
+    "dropout": 0.5
+  },
+  "books_history": {
+    "hidden": 128,
+    "BN": false,
+    "lr": 0.01,
+    "weight_decay": 0.0005,
+    "max_epochs": 2000,
+    "patience": 20,
+    "dropout": 0.5
+  },
+  "ele_photo": {
+    "hidden": 128,
+    "BN": false,
+    "lr": 0.01,
+    "weight_decay": 0.0005,
+    "max_epochs": 2000,
+    "patience": 20,
+    "dropout": 0.5
+  },
+  "ele_computers": {
+    "hidden": 128,
+    "BN": false,
+    "lr": 0.01,
+    "weight_decay": 0.0005,
+    "max_epochs": 2000,
+    "patience": 20,
+    "dropout": 0.5
+  },
+  "arxiv": {
+    "hidden": 256,
+    "BN": true,
+    "lr": 0.01,
+    "weight_decay": 0.0005,
+    "max_epochs": 2000,
+    "patience": 20,
+    "dropout": 0.5
+  },
+  "sportsfit": {
+    "hidden": 128,
+    "BN": false,
+    "lr": 0.01,
+    "weight_decay": 0.0005,
+    "max_epochs": 2000,
+    "patience": 20,
+    "dropout": 0.5
+  }
+}

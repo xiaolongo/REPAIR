@@ -1,0 +1,7 @@
+[CATEGORIES]
+{categories}
+
+[ARTICLE]
+{text}
+
+Return {{"label":"the selected existing category or a specific new category"}}.

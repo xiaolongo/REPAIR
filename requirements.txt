@@ -1,0 +1,10 @@
+# Install CUDA PyTorch and matching PyG extension wheels separately; see readme.md.
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+torch-geometric==2.7.0
+transformers==5.14.1
+PyYAML
+threadpoolctl
+huggingface-hub
+safetensors

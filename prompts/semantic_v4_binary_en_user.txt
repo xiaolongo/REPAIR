@@ -1,0 +1,9 @@
+Node type: {node_type}
+Known IND classes:
+{id_class_definitions}
+Annotation policy: {annotation_policy_or_not_provided}
+Node identifier: {node_id}
+BEGIN NODE TEXT
+{node_text}
+END NODE TEXT
+Return JSON according to the system instructions. The decision must be IND or OOD.
